@@ -2,7 +2,7 @@ import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'lv.rtk.navigator',
-  appName: 'RTK Navigator',
+  appName: 'School Navigator',
   webDir: 'dist',
   android: {
     buildOptions: {

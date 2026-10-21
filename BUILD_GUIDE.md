@@ -1,4 +1,4 @@
-# RTK Navigator — Android APK Build Guide
+# School Navigator — Android APK Build Guide
 
 ## Overview
 
@@ -124,8 +124,8 @@ A release APK is smaller and faster, but requires a signing key.
 
 ### Step 1: Create a signing key (do this once)
 ```bash
-keytool -genkey -v -keystore rtk-navigator.keystore \
-  -alias rtk-navigator -keyalg RSA -keysize 2048 -validity 10000
+keytool -genkey -v -keystore school-navigator.keystore \
+  -alias school-navigator -keyalg RSA -keysize 2048 -validity 10000
 ```
 Answer the prompts. **Keep this file safe — you need it for all future updates.**
 
@@ -143,9 +143,9 @@ Or from terminal — add to `android/app/build.gradle` under `android { }`:
 ```gradle
 signingConfigs {
     release {
-        storeFile file("../../rtk-navigator.keystore")
+        storeFile file("../../school-navigator.keystore")
         storePassword "your_password"
-        keyAlias "rtk-navigator"
+        keyAlias "school-navigator"
         keyPassword "your_password"
     }
 }
@@ -179,7 +179,7 @@ cd android
 ## Project Structure
 
 ```
-RTKNavigator/
+SchoolNavigator/
   src/                    ← React source code (edit this)
   public/maps/            ← SVG floor maps (bundled into APK)
   capacitor.config.ts     ← Capacitor settings
@@ -190,7 +190,7 @@ RTKNavigator/
         AndroidManifest.xml
         res/
           values/strings.xml   ← App name
-          values/styles.xml    ← RTK red theme + splash screen
+          values/styles.xml    ← red theme + splash screen
           drawable/splash.xml  ← Splash icon
           mipmap-*/            ← App icons (all sizes)
 ```
@@ -200,12 +200,12 @@ RTKNavigator/
 ## App Details
 
 - **Package ID:** `lv.rtk.navigator`
-- **App Name:** RTK Navigator
+- **App Name:** School Navigator
 - **Min Android:** 6.0 (API 23) — covers ~99% of devices
 - **Target Android:** 14 (API 34)
-- **Theme color:** RTK Red `#A82227`
+- **Theme color:** Red `#A82227`
 - **Splash screen:** Red background with white map pin icon
 
 ---
 
-*Generated for RTK Navigator v2.0 — Rīgas Tehniskā Koledža*
+*Generated for School Navigator v2.0*

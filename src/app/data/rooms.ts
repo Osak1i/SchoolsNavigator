@@ -2,7 +2,7 @@ import { Room } from '../types/map';
 
 // ─────────────────────────────────────────────────────────────────────────────
 // ROOMS
-// Sourced from seed.json — these are the real room names used by RTK.
+// Sourced from seed.json — these are the real room names used by the school.
 // To add a teacher or update a purpose, just edit the relevant row below.
 // ─────────────────────────────────────────────────────────────────────────────
 
@@ -64,7 +64,7 @@ export const rooms: Room[] = [
   { id: 'building2-f1-kab108', number: '108',            name: '108. kabinets',      teacher: '', purpose: 'Kabinets',    nodeId: 'n-b2-108',  building: 'building2', floor: 1 },
 
   // ── Laboratorijas korpuss — Otrais stāvs ────────────────────────────────
-  { id: 'building2-f2-kab202', number: '202',            name: '202. kabinets',      teacher: 'Iveta Ulmane', purpose: 'Dator klase',    nodeId: 'n-b2-202',  building: 'building2', floor: 2 },
+  { id: 'building2-f2-kab202', number: '202',            name: '202. kabinets',      teacher: 'Iveta', purpose: 'Dator klase',    nodeId: 'n-b2-202',  building: 'building2', floor: 2 },
   { id: 'building2-f2-kab203', number: '203',            name: '203. kabinets',      teacher: '', purpose: 'Kabinets',    nodeId: 'n-b2-203',  building: 'building2', floor: 2 },
   { id: 'building2-f2-kab204', number: '204',            name: '204. kabinets',      teacher: '', purpose: 'Kabinets',    nodeId: 'n-b2-204',  building: 'building2', floor: 2 },
   { id: 'building2-f2-kab205', number: '205',            name: '205. kabinets',      teacher: '', purpose: 'Kabinets',    nodeId: 'n-b2-205',  building: 'building2', floor: 2 },

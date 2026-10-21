@@ -13,12 +13,12 @@ export function TopBar({ onMenuClick, isMenuOpen, currentBuilding, currentFloor 
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-3">
           <div className="bg-white p-1 rounded-full shadow flex-shrink-0" style={{ width: 44, height: 44 }}>
-            <img src="/logo.png" alt="RTK logo" className="w-full h-full object-contain rounded-full" />
+            <img src="/logo.png" alt="School logo" className="w-full h-full object-contain rounded-full" />
           </div>
           <div>
-            <h1 className="font-bold text-lg leading-tight">RTK Navigator</h1>
+            <h1 className="font-bold text-lg leading-tight">School Navigator</h1>
             <div className="flex items-center gap-2">
-              <p className="text-xs text-red-100">Rīgas Tehniskā Koledža</p>
+              <p className="text-xs text-red-100">School</p>
               {currentBuilding && currentFloor && (
                 <>
                   <span className="text-red-300">•</span>

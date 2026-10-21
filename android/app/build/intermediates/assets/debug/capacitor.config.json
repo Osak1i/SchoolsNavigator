@@ -1,6 +1,6 @@
 {
-	"appId": "lv.rtk.navigator",
-	"appName": "RTK Navigator",
+	"appId": "lv.navigator",
+	"appName": "Navigator",
 	"webDir": "dist",
 	"android": {},
 	"server": {
