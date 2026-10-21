@@ -1,5 +1,6 @@
 {
-  "name": "rtk-navigator",
+  "name": "navigator",
+  "homepage": "https://osak1i.github.io/SchoolsNavigator/",
   "private": true,
   "version": "2.0.0",
   "type": "module",
@@ -7,8 +8,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "sync": "npm run build && npx cap sync android",
-    "android": "npm run build && npx cap sync android && npx cap open android"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist" 
   },
   "dependencies": {
     "@capacitor/android": "^6.0.0",
