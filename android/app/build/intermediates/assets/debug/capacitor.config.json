@@ -1,0 +1,9 @@
+{
+	"appId": "lv.rtk.navigator",
+	"appName": "RTK Navigator",
+	"webDir": "dist",
+	"android": {},
+	"server": {
+		"androidScheme": "https"
+	}
+}
