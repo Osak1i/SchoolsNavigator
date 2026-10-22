@@ -1,0 +1,9 @@
+{
+	"appId": "lv.rtk.navigator",
+	"appName": "School Navigator",
+	"webDir": "dist",
+	"android": {},
+	"server": {
+		"androidScheme": "https"
+	}
+}
