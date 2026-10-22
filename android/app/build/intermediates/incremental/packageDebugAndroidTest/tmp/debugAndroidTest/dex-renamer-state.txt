@@ -1,4 +1,0 @@
-#Wed Jun 17 07:56:12 EEST 2026
-base.0=C\:\\Users\\User\\Desktop\\scripts\\asdawdawdasd\\RTKNavigator_final\\android\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
-path.0=0/classes.dex
-renamed.0=classes.dex
