@@ -1,0 +1,9 @@
+{
+	"appId": "lv.navigator",
+	"appName": "Navigator",
+	"webDir": "dist",
+	"android": {},
+	"server": {
+		"androidScheme": "https"
+	}
+}
